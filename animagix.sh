@@ -2,7 +2,7 @@
 
 export ARGO_SERVER=''
 export ARGO_TOKEN=''
-export BUCKETNAME='ani'
+export BUCKETNAME=''
 export ENDPOINT=''
 export ACCESS_KEY=''
 export SECRET_KEY=''
