@@ -22,8 +22,8 @@ python -m pip install boto3
 - ARGO_NAMESPACE without quotes. Provided by your cluster admin.
 - BUCKETNAME in single quotes. Must have been created manually in advance.
 - ENDPOINT in single quotes. Provided by your cluster admin.
-- ACCESS_KEY in single quotes. You find this in your OpenStack Project.
-- SECRET_KEY in single quotes. You find this in your OpenStack Project.
+- ACCESS_KEY in single quotes. You find this in your OpenStack Project under "API access".
+- SECRET_KEY in single quotes. You find this in your OpenStack Project under "API access".
 
 #### 2. Execute:
 Consider that your current terminal will be engaged for time when the workflow is running.
