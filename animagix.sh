@@ -1,12 +1,11 @@
 #!/usr/bin/bash
 
-export ARGO_SERVER='workflows.edgar.biokube.org:443'
-export ARGO_TOKEN='Bearer v2:eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2R0NNIiwiemlwIjoiREVGIn0.rq6WiflQ7EycD8MdBYBxdoeOSSfEY8EhVq55H7-bFuVmINoW--pbBqAmiXgextrZonUmi_Y5BSFF-X4qvEFKDnQ2tWsqoTmecA1CEHegVEtzFImOP_W1bBOGEEdv9IaGXGZVOPgU15Zc_C-tQVr6GajOslhu_D8EOMUEcs4VSMuyFBbAn0T_7UtxzSiKoSP-wq4SnaCzbfkkuaZS6oXLrYiGwK1vGe5WGQ13_O6xaoVbFlFV1Hc_CnqXaCh-IlCk10bpcT5cuMFM97GOLEv3xTLYwPw-U8j0TWzmv_HqnRa88cn3Vjj7oRo5TyrWItO9LaYypEn5IVmZYb3koiLLgw.JHBVM7JM-WJlC3rw.1KTitEwRxRpZxUj28C0Bv19v_IC7vVN6ta53DSCSKd1uvUsSIdhcFkKTXhwFN1zNnyLgTntwnpZHgvx5Rfg-T5RgDeHX49u6WuyEwCdoIEsWyw.ee5gUlp4p-fB-4rFuNbFLA' 
-export ARGO_NAMESPACE=argowf
+export ARGO_SERVER=''
+export ARGO_TOKEN=''
 export BUCKETNAME='ani'
-export ENDPOINT='https://s3.computational.bio.uni-giessen.de'
-export ACCESS_KEY='3059dcfa9c374b5cbbb3b58fc9efd652'
-export SECRET_KEY='913c95e43993482fa921e305b70d6562'
+export ENDPOINT=''
+export ACCESS_KEY=''
+export SECRET_KEY=''
 
 export ID=$(date +%s)
 export INPUT_FILE=$1
