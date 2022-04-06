@@ -22,7 +22,7 @@ export ARGO_BASE_HREF=
 export KUBECONFIG=/dev/null
 
 echo "STEP 2/3: executing workflow..."
-argo submit --from workflowtemplate/ani-remote-wft-v1.4.7 -p input-file="${INPUT_FILE}" -p id="${ID}"
+argo submit --wait -n ${ARGO_NAMESPACE} --from wftmpl/ani-wft-1.4.8 -p input-file="${INPUT_FILE}" -p id="${ID}"
 
 echo "STEP 3/3: downloading results..."
 python3 ./transfer_scripts/download.py $ID $BUCKETNAME $ENDPOINT $ACCESS_KEY $SECRET_KEY
