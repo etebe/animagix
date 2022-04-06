@@ -8,8 +8,8 @@ endpoint = sys.argv[3]
 access_key = sys.argv[4]
 secret_key = sys.argv[5]
 
-if not os.path.isdir('../results'):
-    os.mkdir('../results')
+if not os.path.isdir('./results'):
+    os.mkdir('./results')
 
 s3 = boto3.resource(
     service_name='s3',
@@ -19,6 +19,6 @@ s3 = boto3.resource(
 )
 
 s3.Bucket(bucketname).download_file('res/' + 'output_' + identity + '_json.tar.gz',
-    '../results/output_' + identity + '_json.tar.gz')
+    './results/output_' + identity + '_json.tar.gz')
 s3.Bucket(bucketname).download_file('res/' + 'output_' + identity + '_csv.tar.gz',
-    '../results/output_' + identity + '_csv.tar.gz')
+    './results/output_' + identity + '_csv.tar.gz')
