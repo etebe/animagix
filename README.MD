@@ -26,7 +26,7 @@ python -m pip install boto3
 - SECRET_KEY in single quotes. You find this in your OpenStack Project under "API access".
 
 #### 2. Execute:
-Consider that your current terminal will be engaged for time when the workflow is running.
+Consider that your current terminal will be engaged for the time when the workflow is running.
 
 From within the animagix directory, execute the animagix-cli like the following:
 ```
