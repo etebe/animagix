@@ -28,9 +28,13 @@ python -m pip install boto3
 #### 2. Execute:
 Consider that your current terminal will be engaged for the time when the workflow is running.
 
+It is necessary to specify the blastn task at the end of the command.
+See more here:
+https://www.ncbi.nlm.nih.gov/books/NBK569839/
+
 From within the animagix directory, execute the animagix-cli like the following:
 ```
-./animagix.sh myFastaFiles.tar.gz
+./animagix.sh myFastaFiles.tar.gz megablast
 or
-./animagix.sh myFastaDir/
+./animagix.sh myFastaDir/ blastn
 ```
